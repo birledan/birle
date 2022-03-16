@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This is my first website deployed in Heroku (platform as a service) connected with github account (birledan). It will automaticaly deploy when I push something in "main" branch. Just whait for few minutes after the push.
         </p>
         <a
           className="App-link"
