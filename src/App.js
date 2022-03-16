@@ -7,7 +7,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          This is my first website deployed in Heroku (platform as a service) connected with github account (birledan). It will automaticaly deploy when I push something in "main" branch. Just whait for few minutes after the push.
+          This is my first website deployed in Heroku (cloud platform as a service = PaaS) connected with github account (birledan).
+        </p>
+        <p>
+          It will automatically deploy when I push something in "main" branch. Just wait for few minutes after the push.
         </p>
         <a
           className="App-link"
