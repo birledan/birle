@@ -1,25 +1,18 @@
 import "./App.css";
 
 function App() {
-  if (typeof localStorage !== "undefined") {
-    try {
-      localStorage.setItem("feature_test", "yes");
-      if (localStorage.getItem("feature_test") === "yes") {
-        localStorage.removeItem("feature_test");
-        // localStorage is enabled
-        console.log("localStorage is enabled");
-      } else {
-        // localStorage is disabled
-        console.log("localStorage is disabled");
-      }
-    } catch (e) {
-      // localStorage is disabled
-      console.log("err localStorage is disabled");
-    }
-  } else {
-    console.log("ultim localStorage is available");
-    // localStorage is not available
-  }
+  const setCookie = () => {
+    var date = new Date("Februari 10, 2013");
+    var dateString = date.toGMTString();
+    var cookieString = "pizdietz" + dateString;
+    document.cookie = cookieString;
+  };
+
+  const getCookie = () => {
+    alert(document.cookie);
+  };
+  setCookie();
+  getCookie();
 
   return (
     <div className="App">
