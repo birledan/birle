@@ -4,23 +4,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      
         <p>
-          This is my first website deployed in Heroku (cloud platform as a service = PaaS) connected with github account (birledan).
+          This is iFrame cobiro test
         </p>
-        <p>
-          It will automatically deploy when I push something in "main" branch. Just wait for few minutes after the push.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <iframe name="bloom" referrerpolicy="none"  src="https://app.letsbloom.com/partners/cobiro/apply" width="800" height="930" style="margin:0;padding:0"></iframe>
+        
     </div>
   );
 }
