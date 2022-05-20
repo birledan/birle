@@ -1,22 +1,24 @@
 import "./App.css";
 
 function App() {
-  function lsTest() {
-    var test = "test";
-    try {
-      localStorage.setItem(test, test);
-      localStorage.removeItem(test);
-      return true;
-    } catch (e) {
-      return false;
+  setTimeout(() => {
+    function lsTest() {
+      var test = "test";
+      try {
+        localStorage.setItem(test, test);
+        localStorage.removeItem(test);
+        return true;
+      } catch (e) {
+        return false;
+      }
     }
-  }
+    if (lsTest() === true) {
+      alert("available");
+    } else {
+      alert("unavailable");
+    }
+  }, 5000);
 
-  if (lsTest() === true) {
-    alert("available");
-  } else {
-    alert("unavailable");
-  }
   return (
     <div className="App">
       <p>This is iFrame cobiro test!</p>
