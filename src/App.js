@@ -1,23 +1,25 @@
 import "./App.css";
 
 function App() {
-  setTimeout(() => {
-    function lsTest() {
-      var test = "test";
-      try {
-        localStorage.setItem(test, test);
-        localStorage.removeItem(test);
-        return true;
-      } catch (e) {
-        return false;
+  if (typeof localStorage !== "undefined") {
+    try {
+      localStorage.setItem("feature_test", "yes");
+      if (localStorage.getItem("feature_test") === "yes") {
+        localStorage.removeItem("feature_test");
+        // localStorage is enabled
+        console.log("localStorage is enabled");
+      } else {
+        // localStorage is disabled
+        console.log("localStorage is disabled");
       }
+    } catch (e) {
+      // localStorage is disabled
+      console.log("err localStorage is disabled");
     }
-    if (lsTest() === true) {
-      alert("available");
-    } else {
-      alert("unavailable");
-    }
-  }, 5000);
+  } else {
+    console.log("ultim localStorage is available");
+    // localStorage is not available
+  }
 
   return (
     <div className="App">
