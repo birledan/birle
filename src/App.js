@@ -7,7 +7,7 @@ function App() {
       <iframe
         name="bloom"
         title="bloom"
-        src="https://e6cd-93-119-226-38.eu.ngrok.io/partners/cobiro/apply"
+        src="https://smokingcanary.app.letsbloom.com/partners/cobiro/apply"
         width="800"
         height="930"
       ></iframe>
