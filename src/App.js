@@ -26,7 +26,7 @@ function App() {
         id="bloomID"
         name="bloom"
         title="bloom"
-        src="https://smokingcanary.app.letsbloom.com/partners/cobiro/apply"
+        src="https://87bd-93-119-226-38.eu.ngrok.io/partners/cobiro/apply"
         width="800"
         height="930"
       ></iframe>
