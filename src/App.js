@@ -1,10 +1,10 @@
 import "./App.css";
 
 function App() {
-  const iframe = document.getElementsByTagName("iframe");
-  const iWindow = iframe.contentWindow;
-  const iDocument = iWindow.document;
-  console.log("aaa= ", { iframe, iWindow, iDocument });
+  // const iframe = document.getElementsByTagName("iframe");
+  // const iWindow = iframe.contentWindow;
+  // const iDocument = iWindow.document;
+  // console.log("aaa= ", iframe);
 
   return (
     <div className="App">
