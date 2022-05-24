@@ -11,6 +11,7 @@ function App() {
         src="https://497a-93-119-226-38.eu.ngrok.io/partners/cobiro/apply"
         width="800"
         height="930"
+        style={{ border: "none" }}
       ></iframe>
     </div>
   );
