@@ -8,7 +8,7 @@ function App() {
         id="bloomID"
         name="bloom"
         title="bloom"
-        src="https://497a-93-119-226-38.eu.ngrok.io/partners/cobiro/apply"
+        src="https://smokingcanary.app.letsbloom.com/partners/cobiro/apply"
         width="800"
         height="930"
         style={{ border: "none" }}
