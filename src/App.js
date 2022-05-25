@@ -8,7 +8,7 @@ function App() {
         id="bloomID"
         name="bloom"
         title="bloom"
-        src="https://ab76-5-2-193-224.eu.ngrok.io/partners/cobiro/apply"
+        src="https://a732-5-2-193-224.eu.ngrok.io/partners/cobiro/apply"
         width="800"
         height="930"
         style={{ border: "none" }}
