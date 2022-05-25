@@ -3,12 +3,12 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <p>This is iFrame cobiro test!</p>
+      <p>This is iFrame cobiro test!!</p>
       <iframe
         id="bloomID"
         name="bloom"
         title="bloom"
-        src="https://smokingcanary.app.letsbloom.com/partners/cobiro/apply"
+        src="https://ab76-5-2-193-224.eu.ngrok.io/partners/cobiro/apply"
         width="800"
         height="930"
         style={{ border: "none" }}
