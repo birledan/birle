@@ -15,7 +15,6 @@ function App() {
           margin: "75px auto 40px",
           border: "1px solid #c4c4c4",
           borderRadius: "8px",
-          padding: "40px",
         }}
       ></iframe>
     </div>
