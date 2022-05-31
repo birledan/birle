@@ -10,10 +10,10 @@ function App() {
         src="https://smokingcanary.app.letsbloom.com/partners/cobiro/apply"
         height="930"
         style={{
-          maxWidth: "900px",
-          margin: "75px auto 40px",
-          border: "1px solid #c4c4c4",
-          borderRadius: "8px",
+          margin: 0,
+          padding: 0,
+          width: "100%",
+          border: "1px solid #f7f7f7",
         }}
       ></iframe>
     </div>
