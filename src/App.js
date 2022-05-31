@@ -8,10 +8,9 @@ function App() {
         name="bloom"
         title="bloom"
         src="https://smokingcanary.app.letsbloom.com/partners/cobiro/apply"
-        width="800"
-        height="930"
         style={{
           maxWidth: "900px",
+          height: "max-content",
           margin: "75px auto 40px",
           border: "1px solid #c4c4c4",
           borderRadius: "8px",
