@@ -3,11 +3,11 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <p>This is iFrame cobiro test in smokingcanary!!</p>
+      <p>This is iFrame cobiro test in production!!</p>
       <iframe
         name="bloom"
         title="bloom"
-        src="https://smokingcanary.app.letsbloom.com/partners/cobiro/apply"
+        src="https://app.letsbloom.com/partners/cobiro/apply"
         height="930"
         style={{
           margin: 0,
