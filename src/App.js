@@ -13,7 +13,6 @@ function App() {
           margin: 0,
           padding: 0,
           width: "100%",
-          border: "1px solid #f7f7f7",
         }}
       ></iframe>
     </div>
